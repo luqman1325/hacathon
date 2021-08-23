@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salt'n pepper Company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="image">
+            <img src="https://www.saltnpepper.com.pk/assets/images/SNP_Logo.png" alt="">
+        </div>
+
+        <div class="items">
+            <ul>
+                <l1 class="button"> Home</l1>
+                <l1 class="button"> About Us</l1>
+                <l1 class="button"> Brand</l1>
+                <l1 class="button"> Get a Faranchise</l1>
+                <l1 class="button"> Feedback</l1>
+                <l1 class="button"> Publication</l1>
+                <l1 class="button"> Rs.0 <i class="fa fa-shopping-cart" aria-hidden="true"></i> </l1>
+                <l1> <a class="loginbutton" href="./registration/registration.html">Registration</a> </l1>
+                <l1 > <a class="loginbutton" href="./loginform/login.html"> |Login| </a></l1>
+
+            </ul>
+        </div>
+    </div>
+
+    <div>
+        <img src="https://www.saltnpepper.com.pk/admin/assets/media/Restaurant.png" width="100%" alt="">
+    </div>
+
+    <div>
+        <p class="para1">Welcome to the Salt'n Pepper Restaurants</p>
+        <p class="para2">Welcome to the Salt'n Pepper Restaurants website which now should give you the same feeling of
+            warmth as our restaurants have been giving over three decades. Please click <br> our brands below for
+            further information.</p>
+        <div class="signup">
+            <a class="signupp"> signup </a>
+        </div>
+    </div>
+
+    <div class="main-continar">
+        <h1>
+            Our brands
+        </h1>
+
+        <div class="continar">
+            <div class="left">
+                <img src="https://www.saltnpepper.com.pk/assets/images/Salt'n-Pepper-Restaurant-01.png" width="300px"
+                    alt="">
+                <p class="img-text1">
+                    Salt'n Pepper Restaurant <br> Menu <span class="order-button">Order Now</span> <br> Deals <br>
+                    Photos <br> Branches <br> Events <br>
+                </p>
+            </div>
+
+            <div class="center">
+                <img src="https://www.saltnpepper.com.pk/assets/images/Salt'n-Pepper-Village-01.png" width="300px"
+                    alt="">
+                <p class="img-text1">
+                    Salt'n Pepper Restaurant <br> Menu <span class="order-button">Order Now</span> <br> Deals <br>
+                    Photos <br> Branches <br> Events
+                </p>
+            </div>
+
+            <div class="right">
+                <img src="https://www.saltnpepper.com.pk/assets/images/express.jpeg" width="300px" alt="">
+                <p class="img-text1">
+                    Salt'n Pepper Restaurant <br> Menu <span class="order-button">Order Now</span> <br> Deals <br>
+                    Photos <br> Branches <br> Events
+                </p>
+            </div>
+        </div>
+
+        <!-- space -->
+
+        <div>
+            <h1>
+                Our Franchises
+            </h1>
+            <p class="para3">
+                Each of our franchises are individually managed. For further details, kindly contact them directly.
+            </p>
+        </div>
+
+
+        <div class="main-continar2">
+            <div class="continar2">
+                <img class="location"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQakXh-kZg8OYJxrCs4zzbL5t_rzAv9DDv_cg&usqp=CAU"
+                    alt="" width="" height="150px">
+                <hr>
+                <p> <b> Salt’ n Pepper Islamabad </b>
+                    <br>
+                    Plot# 55, Shabbir Plaza, Blue Area, F-6,
+                    <br>
+                    Islamabad
+                    <br>
+                    051 2604904-6
+                </p>
+            </div>
+
+            <div class="continar2">
+
+                <img class="location"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQakXh-kZg8OYJxrCs4zzbL5t_rzAv9DDv_cg&usqp=CAU"
+                    alt="" height="150px">
+                <hr>
+                <p> <b> Salt’ n Pepper Islamabad </b>
+                    <br>
+                    Plot# 55, Shabbir Plaza, Blue Area, F-6,
+                    <br>
+                    Islamabad
+                    <br>
+                    051 2604904-6
+                </p>
+            </div>
+
+            <div class="continar2">
+                <img class="location"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQakXh-kZg8OYJxrCs4zzbL5t_rzAv9DDv_cg&usqp=CAU"
+                    alt="" height="150px">
+                <hr>
+                <p> <b> Salt’ n Pepper Islamabad </b>
+                    <br>
+                    Plot# 55, Shabbir Plaza, Blue Area, F-6,
+                    <br>
+                    Islamabad
+                    <br>
+                    051 2604904-6
+                </p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <footer>
+        <p>Developed by LuQMaN ShEiKH</p>
+        <p>© 2021 Salt'n Pepper. All rights reserved.</p>
+        <p>Powered by Software</p>
+    </footer>
+
+
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyD82t67TEXFSUe6I9Ho2CKGNMXuf4QU2bY",
+    authDomain: "restaurant-18b88.firebaseapp.com",
+    projectId: "restaurant-18b88",
+    storageBucket: "restaurant-18b88.appspot.com",
+    messagingSenderId: "853748738920",
+    appId: "1:853748738920:web:3ae667c0219560d41e04dd"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

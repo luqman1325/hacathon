@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <form action="action_page.php" method="post" style="width: 50%; margin: 0 auto; margin-top: 40px; border-radius: 10px;">
+        <div class="imgcontainer">
+          <img src="https://www.clipartkey.com/mpngs/m/141-1414123_avatar-image-png-red.png" alt="Avatar" class="avatar">
+        </div>
+      
+        <div class="container">
+          <label id="register" for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label id="register" for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn"> <a class="anotherCbtn" href="">Cancle</a> </button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyD82t67TEXFSUe6I9Ho2CKGNMXuf4QU2bY",
+    authDomain: "restaurant-18b88.firebaseapp.com",
+    projectId: "restaurant-18b88",
+    storageBucket: "restaurant-18b88.appspot.com",
+    messagingSenderId: "853748738920",
+    appId: "1:853748738920:web:3ae667c0219560d41e04dd"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+</body>
+</html>

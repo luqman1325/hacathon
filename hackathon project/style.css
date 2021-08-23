@@ -1,0 +1,192 @@
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.navbar{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.image{
+    display: inline-block;
+    margin-left: 8%;
+    margin-right: 6%;
+    margin-top: 3px;
+    vertical-align: top;
+}
+
+.items{
+    display: inline-block;
+    color: white;
+}
+
+.loginbutton{
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: white;
+}
+.loginbutton:hover{
+    background-color: red;
+}
+
+.button{
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+
+}
+
+.button:hover{
+    background-color: black;
+    color: red;
+    cursor: pointer;
+}
+
+.para1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 5px;
+ 
+}
+
+.para2{
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    margin: 5px;
+    line-height: 1.5;
+    
+}
+
+.para3{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.login{
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.login:hover{
+    color: black;
+    background-color: red;
+    cursor: pointer;
+    
+}
+
+.signup{
+   text-align: center;
+}
+.signup:hover{
+    cursor: pointer;
+}
+
+.signupp{
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding: 5px 8px;
+}
+
+.signupp:hover{
+    background-color: red;
+}
+
+.main-continar{
+    background-color: black;
+    width: 100%;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 40px ;
+    padding-bottom: 20px;
+}
+
+.continar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.continar > div{
+    width: 300px;
+    height: 280px;
+    background-color: white;
+    border: 1px solid;
+}
+.img-text1{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.order-button{
+    border: 1px solid;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    padding: 5px;
+}
+
+.continar2{
+    background-color: white;
+    height: 250px;
+    width: 300px;
+    text-align:center ;
+}
+
+.main-continar2{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.continar2{
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.continar2 > p{
+    font-size: 14px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    background-color: black;
+    opacity: 0.9;
+    color: white ;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+
